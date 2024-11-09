@@ -56,3 +56,13 @@ It shows difference between current working directory wrt staged changes
 >> git diff --staged
 
 # not to tracks files are put under .gitignore
+
+# suppose a file initial tracked by .git but later added in .gitignore it will still be unmodified
+# to solve this issue
+>> git rm --cached <file_name> # delete a file and stage changes
+
+# unstage a file
+>> git restore --staged <file_name>
+
+# move a file to last commit
+>> git checkout --file_name.txt

@@ -49,3 +49,10 @@ untracked         unmodified        modified        staged
 
 # skip staging area
 >> git commit -a -m "commit message"
+
+# to know about git difference
+It shows difference between current working directory wrt staged changes
+>> git diff
+>> git diff --staged
+
+# not to tracks files are put under .gitignore

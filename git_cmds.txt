@@ -1,0 +1,28 @@
+# Git commands
+
+############### Three stage architecture in Git #####################
+working directory         staging area      .git directory
+(modified)                (staged)             (committed)
+          <--------------------------------- checkout of project
+          -----------------> stage fixes
+                                  -----------> commit
+#####################################################################
+
+Note: tracking of a project happens when its placed in .git directory
+
+# create a git repository .git folder will be created in workspace
+>> git init
+
+# to track files and folders
+>> git status
+
+# to add a specific file to staging area
+>> git add <file_name>
+
+# to add all files from untracked to tracked (staging area)
+>> git add .
+
+# to commit files after being staged
+>> git commit -m "commit_message"
+
+# files which are in .git directory are untracked

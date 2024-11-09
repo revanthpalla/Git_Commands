@@ -66,3 +66,9 @@ It shows difference between current working directory wrt staged changes
 
 # move a file to last commit
 >> git checkout --file_name.txt
+
+# rollback to last commit
+>> git checkout -f
+
+# setting alias
+>> git config --global alias.st status

@@ -35,3 +35,17 @@ untracked         unmodified        modified        staged
     remove <--------------|
                     commit <---------------------------|
 #####################################################################
+
+# to see different versions of commit
+>> git log
+>> git log --oneline
+
+# to see in commit message user name and email
+>> git config --global user.name myusername
+>> git config --global user.email myemail
+
+# to delete a git repository
+>> rm -rf .git
+
+# skip staging area
+>> git commit -a -m "commit message"

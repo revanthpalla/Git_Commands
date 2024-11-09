@@ -26,3 +26,12 @@ Note: tracking of a project happens when its placed in .git directory
 >> git commit -m "commit_message"
 
 # files which are in .git directory are untracked
+
+############### Life cycle of a status of a file ####################
+untracked         unmodified        modified        staged
+    |-------------------------------------------------> add
+                  |------------------> edit
+                                       |--------------> stage
+    remove <--------------|
+                    commit <---------------------------|
+#####################################################################

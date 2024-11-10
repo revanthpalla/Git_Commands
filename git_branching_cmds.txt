@@ -37,3 +37,8 @@
 # if you want to rebase develop branch into master unlike merging you need
 # to be in develop branch instead of master branch
 >> git rebase master
+
+# reset head of master to latest commit
+# you can do fast-farward merging
+>> git checkout master
+>> git merge develop

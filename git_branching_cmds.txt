@@ -10,3 +10,12 @@
 
 # create and checkout to a branch
 >> git checkout -b <branch_name>
+
+# to show branch logging in oneline
+>> git log --oneline --graph --all
+
+# to delete a branch which is merged
+>> git branch -d <branch_name>
+
+# to delete a branch which is not merged
+>> git branch -D <branch_name>

@@ -20,7 +20,7 @@
 # to delete a branch which is not merged
 >> git branch -D <branch_name>
 
-# to merge branches strategy ort merging
+# ort startegy is used in recursive merging
 # suppose you want to merge develop to master
 # first need to checkout master
 >> git merge develop

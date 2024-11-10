@@ -21,7 +21,7 @@
 >> git branch -D <branch_name>
 
 # to merge branches strategy ort merging
-# suppose you want to merge develop to master
+# suppose you want to merge from develop to master
 # first need to checkout master
 >> git merge develop
 

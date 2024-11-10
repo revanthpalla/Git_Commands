@@ -1,0 +1,26 @@
+# The default git branch is master
+>> git branch
+>> git branch -v
+
+# create a new branch
+>> git branch <branch_name>
+
+# checkout to an existing branch
+>> git checkout <branch_name>
+
+# create and checkout to a branch
+>> git checkout -b <branch_name>
+
+# to show branch logging in oneline
+>> git log --oneline --graph --all
+
+# to delete a branch which is merged
+>> git branch -d <branch_name>
+
+# to delete a branch which is not merged
+>> git branch -D <branch_name>
+
+# to merge branches
+# suppose you want to merge develop to master
+# first need to checkout master
+>> git merge develop

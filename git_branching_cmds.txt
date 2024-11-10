@@ -20,7 +20,9 @@
 # to delete a branch which is not merged
 >> git branch -D <branch_name>
 
-# to merge branches
+# to merge branches strategy ort merging
 # suppose you want to merge develop to master
 # first need to checkout master
 >> git merge develop
+
+# demonstrating merge conflict in line 23

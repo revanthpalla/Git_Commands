@@ -64,6 +64,9 @@ It shows difference between current working directory wrt staged changes
 # unstage a file
 >> git restore --staged <file_name>
 
+# to remove untracked files which are not required
+>> git clean -f -d
+
 # move a file to last commit
 >> git checkout --file_name.txt
 

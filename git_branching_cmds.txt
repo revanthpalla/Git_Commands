@@ -34,3 +34,6 @@
 
 # after rebasing and develop commits will be deleted and appended to master
 # (master) c1 --- c2 --- c3 --- c4 --- c5 --- c6
+# if you want to rebase develop branch into master unlike merging you need
+# to be in develop branch instead of master branch
+>> git rebase master

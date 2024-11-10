@@ -26,3 +26,11 @@
 >> git merge develop
 
 # demonstrating merge conflict in line 23
+
+# understanding rebasing
+# (master) c1 --- c2 --- c3 --- c4
+#                                \
+# (develop)                       c5 --- c6
+
+# after rebasing and develop commits will be deleted and appended to master
+# (master) c1 --- c2 --- c3 --- c4 --- c5 --- c6

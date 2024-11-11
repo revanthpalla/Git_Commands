@@ -42,3 +42,15 @@
 # you can do fast-farward merging
 >> git checkout master
 >> git merge develop
+
+# pushing changes to central repository
+>> git remote add origin https://github.com/revanthpalla/Git_Commands.git
+
+# This command simply means "you are adding the location of your remote repository where you wish to push/pull your files to/from !!.."
+# Your remote repository could be anywhere on github, gitlab, bitbucket, etc.
+# Here origin is an alias/alternate name for your remote repository so that you don't have to type the entire path for remote every time
+# and henceforth you are declaring that you will use this name(origin) to refer to your remote. This name could be anything.
+# To verify that the remote is set properly type : >> git remote -v
+# This command simply pushes your files to the remote repository.Git has a concept of something known as a "branch",
+# so by default everything is pushed to the master branch unless explicitly specified an alternate branch.
+# >> git push -u origin master
